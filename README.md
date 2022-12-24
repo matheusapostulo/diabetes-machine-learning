@@ -28,5 +28,15 @@ No missing values!!
 ## SCALING AND TREATMENT OF CATEGORICAL ATTRIBUTES  
 It wasn't necessary because the dataframe was already clean.
 
+## SPLIT OF BASES INTO TRAINING AND TESTING
+A commonly used ratio is 80:20, which means 80% of the data is for training and 20% for testing.  
+![image](https://user-images.githubusercontent.com/73514316/209414553-dec1257e-900b-46ff-b14f-0ffe50c80248.png)
+  
+So this is how our bases were divided:  
+![image](https://user-images.githubusercontent.com/73514316/209414584-b9974b7f-fedf-4210-9879-1d43c0d868ab.png)
+ 
+
+
 # References
-https://www.kaggle.com/datasets/alexteboul/diabetes-health-indicators-dataset?select=diabetes_binary_health_indicators_BRFSS2015.csv
+https://www.kaggle.com/datasets/alexteboul/diabetes-health-indicators-dataset?select=diabetes_binary_health_indicators_BRFSS2015.csv  
+
