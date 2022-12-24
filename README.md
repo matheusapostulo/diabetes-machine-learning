@@ -1,4 +1,4 @@
-# Diabetes Machine Learning
+# DIABETES MACHINE LEARNING
 We will build two classification models, one with Bayes and the other with Forest Random. In the end, we'll do a comparison between the two to see which had better accuracy in predicting diabetes.
 
 # DATA PRE PROCESSING
