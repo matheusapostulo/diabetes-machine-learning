@@ -20,7 +20,7 @@ However, they don't seem to be outliers that will cause problems for the models.
 ![image](https://user-images.githubusercontent.com/73514316/209413262-21a00ada-c869-4843-a6af-eee764b607dd.png)
 ![image](https://user-images.githubusercontent.com/73514316/209413277-ff2cb9a7-25bb-45ff-b237-3eacc458b8a1.png)
 
-### Missing values analysis
+### Checking Missing values
 No missing values!!  
 ![image](https://user-images.githubusercontent.com/73514316/209403138-8e9f4bcc-90b1-4f4f-9444-27351ab368d2.png)  
 
