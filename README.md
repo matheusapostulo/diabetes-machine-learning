@@ -35,7 +35,38 @@ A commonly used ratio is 80:20, which means 80% of the data is for training and 
 So this is how our bases were divided:  
 ![image](https://user-images.githubusercontent.com/73514316/209414584-b9974b7f-fedf-4210-9879-1d43c0d868ab.png)
  
+# COMPARING RESULTS BETWEEN BAYES AND FOREST RANDOM (3 DATASETS)
+## DIABETES IMBALANCE
+### BAYES - 75.95%  
+![image](https://user-images.githubusercontent.com/73514316/209579885-65ded819-e936-482f-bdf8-b7376efab1f5.png)
 
+### FOREST RANDOM - 84.13%  
+![image](https://user-images.githubusercontent.com/73514316/209580042-0b50b8d9-8868-49b9-845a-2092e0bd5184.png)
+
+## DIABETES IMBALANCE (WITHOUT DUPLICATE ROWS)  
+We didn't get better resuls by deleting duplicate rows!
+### BAYES - 73.99%
+![image](https://user-images.githubusercontent.com/73514316/209580228-ed0d42f4-12b0-48d3-a0e2-85ce0682616f.png)
+
+### FOREST RANDOM - 82.11%    
+![image](https://user-images.githubusercontent.com/73514316/209580238-9099c9c9-cc79-4f96-bbeb-46bc5a8f99cc.png)
+
+## DIABETES BINARY IMBALANCE  
+### BAYES - 77.66%
+![image](https://user-images.githubusercontent.com/73514316/209580308-374cc669-e442-4f0e-96bc-ea06a5e307d1.png)
+
+### FOREST RANDOM - 85.78%
+![image](https://user-images.githubusercontent.com/73514316/209580321-a9793e54-19fb-40ac-9dda-785364165d9e.png)
+
+## DIABETES BINARY BALANCE  
+### BAYES - 72.25%
+![image](https://user-images.githubusercontent.com/73514316/209580370-a8a04725-d369-409a-af66-435c964eb98f.png)
+
+### FOREST RANDOM - 73.64%
+![image](https://user-images.githubusercontent.com/73514316/209580382-cb430593-22ee-4de2-bf5d-70a7c6ecda47.png)
+
+# CONCLUSIONS 
+Therefore, we achieved the best result (85.78% accuracy) using the dataset "DIABETES BINARY IMBALANCE" (Binary -> 0 = no diabetes, 1= prediabetes or diabetes) with the **Forest Random algorithm**.
 
 # References
 https://www.kaggle.com/datasets/alexteboul/diabetes-health-indicators-dataset?select=diabetes_binary_health_indicators_BRFSS2015.csv  
